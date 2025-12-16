@@ -6,3 +6,7 @@
     user:
       name: viggy
       state: present
+  - name: installing packages
+    yum:
+      name: httpd
+      state: present    
